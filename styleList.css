@@ -74,6 +74,12 @@ button {
   margin-right: 5px;
 }
 
+
+.cart-btn {
+  background: darkgreen;
+  margin-right: 5px;
+}
+
 .img-text {
   font-size: 10px;
   color: gray;
