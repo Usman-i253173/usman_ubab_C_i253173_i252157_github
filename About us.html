@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PlaySpot — About Us</title>
+
+<style>
+    body{
+        margin:0;
+        font-family: Arial, sans-serif;
+    }
+
+    /* NAVBAR */
+    nav{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:15px 60px;
+        border-bottom:1px solid #ddd;
+    }
+    .logo-box{
+        display:flex;
+        align-items:center;
+        gap:15px;
+    }
+    .logo-box img{
+        width:55px;
+    }
+    .logo-text{
+        font-size:12px;
+        line-height:14px;
+    }
+    nav a{
+        margin:0 12px;
+        text-decoration:none;
+        color:black;
+        font-size:15px;
+    }
+    .sign-btn{
+        background:#72c04b;
+        padding:7px 18px;
+        border-radius:20px;
+        color:white !important;
+        font-weight:bold;
+    }
+
+    /* ABOUT SECTION */
+    .about-section{
+        padding:40px 20px;
+        text-align:center;
+        max-width:750px;
+        margin:auto;
+    }
+    .about-section h2{
+        margin-bottom:15px;
+    }
+    .about-section p{
+        font-size:16px;
+        line-height:22px;
+        color:#444;
+    }
+
+    /* GREEN SHAPES */
+    .shape-left{
+        position:absolute;
+        left:0;
+        top:380px;
+        width:200px;
+        height:200px;
+        background:#72c04b;
+        clip-path:polygon(0 0, 100% 0, 0 100%);
+        z-index:-1;
+    }
+    .shape-right{
+        position:absolute;
+        right:0;
+        top:520px;
+        width:230px;
+        height:230px;
+        background:#72c04b;
+        clip-path:polygon(100% 0, 100% 100%, 0 0);
+        z-index:-1;
+    }
+
+    /* TEAM SECTION */
+    .team-section{
+        text-align:center;
+        padding:40px 20px;
+    }
+    .team-cards{
+        display:flex;
+        justify-content:center;
+        gap:40px;
+        flex-wrap:wrap;
+        margin-top:20px;
+    }
+    .team-card{
+        width:180px;
+        border:1px solid #ddd;
+        padding:15px;
+        border-radius:8px;
+        background:white;
+    }
+    .team-card img{
+        width:100%;
+        border-radius:5px;
+    }
+    .team-name{
+        margin-top:10px;
+        font-weight:bold;
+    }
+
+    /* ACHIEVEMENTS */
+    .achievements{
+        padding:20px;
+        text-align:center;
+        font-size:16px;
+    }
+    .achievements span{
+        margin:0 15px;
+    }
+
+    /* FOOTER */
+    footer{
+        background:#e5e5e5;
+        padding:40px 60px;
+        display:flex;
+        justify-content:space-between;
+        font-size:14px;
+    }
+    footer p{
+        margin:5px 0;
+    }
+    footer .social-icons img{
+        width:25px;
+        margin-right:8px;
+    }
+    .copyright{
+        text-align:center;
+        padding:12px;
+        color:#555;
+        font-size:12px;
+        background:#f2f2f2;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+    <div class="logo-box">
+        <img src="IICT PROJECT IMAGES/Playspotlogo.png">
+        <div class="logo-text">Book courts •<br>Organize events</div>
+    </div>
+
+    <div>
+        <a href="#">Home</a>
+        <a href="#">Courts</a>
+        <a href="#">Store</a>
+        <a href="#">Events</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+        <a class="sign-btn" href="#">sign in</a>
+    </div>
+</nav>
+
+<div class="shape-left"></div>
+<div class="shape-right"></div>
+
+<div class="about-section">
+    <h2>About us</h2>
+    <p>
+        Welcome to PLAYSPOT, your new headquarters for play. Our mission 
+        is simple: to get more people active and make access to sports facilities 
+        seamless for everyone. We saw that finding and booking a court was often the 
+        biggest hurdle to getting a game in.
+        <br><br>
+        That's why we created a single, streamlined platform to browse, 
+        book, and pay for your next tennis match, basketball run, or badminton game 
+        in just a few clicks. Stop searching and start playing.
+    </p>
+    <h3>Values</h3>
+    <p>1. Accessibility</p>
+We make sports easy to reach by giving everyone simple, fast access to nearby courts and facilities.
+<p>2. Convenience</p>
+Our platform streamlines browsing, booking, and payment so you spend less time planning and more time playing.
+<p>3. Community</p>
+We bring players, teams, and local facilities together—building a connected sports community where everyone can grow and enjoy the game</p>
+</div>
+
+<div class="team-section">
+    <h2>Our Team</h2>
+
+    <div class="team-cards">
+        <div class="team-card">
+            <img src="IICT PROJECT IMAGES/IDimage2.png">
+            <div class="team-name">Sheikh Ubab Anjum</div>
+        </div>
+
+        <div class="team-card">
+            <img src="IICT PROJECT IMAGES/IDimage.png">
+            <div class="team-name">Usman Laghari</div>
+        </div>
+    </div>
+</div>
+
+<div class="achievements">
+    <h3>Achievements</h3>
+    <br>
+    <span>🏅 10,000+ Bookings</span>
+    <span>📍 50+ Partner Venues</span>
+    <span>🔒 Secure Payments</span>
+    <span>⭐ 4.8 Rating</span>
+</div>
+
+<footer>
+    <div>
+        <b>PlaySpot</b>
+        <p>Book courts, organize tournaments, buy equipment.</p>
+    </div>
+
+    <div>
+        <b>Quick Links</b>
+        <p>About</p>
+        <p>Contact</p>
+        <p>Courts</p>
+        <p>Store</p>
+    </div>
+
+    <div>
+        <b>Contact</b>
+        <p><b>Email:</b> support@playspot.iict</p>
+        <p><b>Phone:</b> +92 300 0000000</p>
+
+        <div class="social-icons">
+            <img src="IICT PROJECT IMAGES/facebook.png">
+            <img src="IICT PROJECT IMAGES/Instagram.png">
+            <img src="IICT PROJECT IMAGES/X.png">
+        </div>
+    </div>
+</footer>
+
+<div class="copyright">
+    © 2025 PlaySpot. All Rights Reserved.
+</div>
+
+</body>
+</html>
