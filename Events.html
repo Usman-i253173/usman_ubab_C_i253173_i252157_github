@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PlaySpot — Events</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#fff;
+    position: absolute;
+    z-index: 0;
+}
+
+/* Green Background Shape */
+.green-shape{
+    position: fixed;
+    right:0;
+    top:180px;
+    width:350px;
+    height:350px;
+    background:#72c04b;
+    clip-path:polygon(100% 0, 100% 100%, 60% 100%, 0 40%, 60% 0);
+    z-index:-1;
+}
+
+/* Navbar */
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:15px 50px;
+}
+
+.logo-box{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+.logo-box img{
+    width:60px;
+}
+.logo-text{
+    font-size:12px;
+    line-height:15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+    margin:0 10px;
+    font-size:15px;
+}
+.sign-btn{
+    background:#72c04b;
+    color:white !important;
+    padding:6px 15px;
+    border-radius:15px;
+    font-weight:bold;
+}
+
+/* Event box */
+.event-box{
+    background:#e8e6e6;
+    width:80%;
+    margin:30px auto;
+    padding:25px;
+    border-radius:15px;
+}
+.event-box h2{
+    margin-top:0;
+}
+.padel-img{
+    width:100%;
+    border-radius:10px;
+    margin:10px 0;
+    height:200px;
+    object-fit:cover;
+}
+.register-btn{
+    padding:10px 22px;
+    border:none;
+    background:#777;
+    color:white;
+    border-radius:10px;
+    margin-top:12px;
+    cursor:pointer;
+}
+
+/* Footer */
+.footer{
+    background:#dcdcdc;
+    display:flex;
+    justify-content:space-between;
+    padding:30px 60px;
+    font-size:14px;
+}
+.footer b{
+    font-size:15px;
+}
+.footer p{
+    margin:3px 0;
+}
+.copyright{
+    text-align:center;
+    padding:15px;
+    font-size:12px;
+    color:#555;
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="green-shape"></div>
+
+<nav>
+    <div class="logo-box">
+        <img src="IICT PROJECT IMAGES/Playspotlogo.png">
+        <div class="logo-text">Book courts •<br>Organize events</div>
+    </div>
+
+    <div>
+        <a href="#">Home</a>
+        <a href="#">Courts</a>
+        <a href="#">Store</a>
+        <a href="#">Events</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+        <a href="#" class="sign-btn">sign in</a>
+    </div>
+</nav>
+
+<div class="event-box">
+    <h2>Events & Tournaments</h2>
+    <h3>Inter - City Padel League</h3>
+
+    <img class="padel-img" src="IICT PROJECT IMAGES/Padel.jpg">
+
+    <p>Register teams by age groups. Matches scheduled on weekends.</p>
+
+    <button class="register-btn">Register</button>
+</div>
+
+<div class="footer">
+    <div>
+        <b>PlaySpot</b>
+        <p>Book courts, organize tournaments, buy equipment.</p>
+    </div>
+
+    <div>
+        <b>Quick Links</b>
+        <p>About</p>
+        <p>Contact</p>
+        <p>Courts</p>
+        <p>Store</p>
+    </div>
+
+    <div>
+        <b>Contact</b>
+        <p><b>Email:</b> support@playspot.iict</p>
+        <p><b>Phone:</b> +92 300 0000000</p>
+        <div class="social-icons">
+        <img src="IICT PROJECT IMAGES/facebook.png" alt="Facebook">
+        <img src="IICT PROJECT IMAGES/Instagram.png" alt="Instagram">
+        <img src="IICT PROJECT IMAGES/X.png" alt="X">
+    </div>
+</div>
+
+<div class="copyright">
+    © 2025 PlaySpot. All Rights Reserved.
+</div>
+
+</body>
+</html>
