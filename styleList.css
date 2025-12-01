@@ -33,16 +33,15 @@ body {
 }
 
 
-.card {
+.box {
   display: flex;
   margin: 12px;
-  box-shadow: 0 0 5px #aaa;
 }
 
 .image {
   width: 120px;
   height: 100px;
-  background: #ccc;
+  background: lightgray;
 }
 
 
@@ -71,7 +70,7 @@ button {
 }
 
 .details-btn {
-  background: #333;
+  background: black;
   margin-right: 5px;
 }
 

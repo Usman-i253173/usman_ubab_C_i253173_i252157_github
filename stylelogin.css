@@ -80,28 +80,22 @@ body {
 }
 
 
-.social-login {
-    text-align: center;
-    margin-top: 10px;
+.social-icons {
+    display: flex;
+    justify-content: center;   /* center horizontally */
+    align-items: center;       /* align vertically */
+    gap: 15px;                 /* space between icons */
 }
 
-.social-buttons button {
+.social-logos {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    border: none;
-    color: white;
-    margin: 5px;
-    cursor: pointer;
+    object-fit: cover;
+    display: block;
 }
 
-.google {
-    background: red;
-}
 
-.facebook {
-    background: blue;
-}
 
 .register-btn {
     width: 100%;
