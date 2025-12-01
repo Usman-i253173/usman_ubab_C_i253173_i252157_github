@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PlaySpot — Contact</title>
+
+<style>
+    body{
+        margin:0;
+        font-family: Arial, sans-serif;
+        background:#fff;
+    }
+
+    /* NAVBAR */
+    nav{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:15px 60px;
+        border-bottom:1px solid #ddd;
+    }
+    .logo-area{
+        display:flex;
+        align-items:center;
+        gap:15px;
+    }
+    .logo-area img{
+        width:60px;
+    }
+    .logo-area div{
+        font-size:13px;
+        color:#555;
+        line-height:1.2;
+    }
+
+    .nav-links a{
+        margin:0 15px;
+        text-decoration:none;
+        color:#000;
+        font-size:16px;
+    }
+
+    .signin-btn{
+        background:#72c04b;
+        color:#fff;
+        padding:7px 18px;
+        border-radius:20px;
+        text-decoration:none;
+    }
+
+    /* CONTACT + SUPPORT SECTION */
+    .container{
+        display:flex;
+        gap:30px;
+        padding:40px 60px;
+    }
+    .box{
+        flex:1;
+        background:#f5f5f5;
+        padding:25px;
+        border-radius:5px;
+    }
+    .box h2{
+        margin-top:0;
+    }
+    input, textarea{
+        width:100%;
+        padding:12px;
+        margin:8px 0;
+        border:1px solid #ddd;
+        border-radius:5px;
+        font-size:14px;
+    }
+    textarea{
+        height:120px;
+        resize:none;
+    }
+    button{
+        background:#72c04b;
+        color:#fff;
+        padding:10px 20px;
+        border:none;
+        border-radius:20px;
+        cursor:pointer;
+        font-size:15px;
+    }
+
+    /* FAQ ACCORDION (CSS ONLY) */
+    .faq-item{
+        margin-top:15px;
+    }
+    .faq-item input{
+        display:none;
+    }
+    .faq-item label{
+        display:block;
+        font-weight:bold;
+        cursor:pointer;
+        padding:8px 0;
+    }
+    .faq-item .answer{
+        max-height:0;
+        overflow:hidden;
+        transition:0.3s ease;
+        padding-left:10px;
+        font-size:14px;
+        color:#444;
+    }
+    .faq-item input:checked ~ .answer{
+        max-height:150px;
+        margin-top:5px;
+    }
+
+    /* FOOTER */
+    footer{
+        background:#e5e5e5;
+        padding:40px 60px;
+        display:flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+    }
+    footer h3{
+        margin-top:0;
+    }
+    footer a{
+        text-decoration:none;
+        color:#000;
+        display:block;
+        margin:5px 0;
+        font-size:14px;
+    }
+    .footer-bottom{
+        text-align:center;
+        margin-top:20px;
+        padding-bottom:20px;
+        font-size:14px;
+        color:#555;
+    }
+
+        .social-icons img {
+    width:30px;      /* adjust size */
+    height:auto;     /* keeps proportions */
+    margin-right:10px;
+}
+.social-icons {
+    margin-top:10px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <div class="logo-area">
+        <img src="IICT PROJECT IMAGES/Playspotlogo.png">
+        <div>Book courts •<br>Organize events</div>
+    </div>
+
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Courts</a>
+        <a href="#">Store</a>
+        <a href="#">Events</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+    </div>
+
+    <a href="#" class="signin-btn">sign in</a>
+</nav>
+
+<!-- MAIN CONTENT -->
+<div class="container">
+    <!-- CONTACT FORM -->
+    <div class="box">
+        <h2>Contact us</h2>
+        <label>Name :</label>
+        <input type="text">
+
+        <label>Email :</label>
+        <input type="email">
+
+        <label>Message :</label>
+        <textarea></textarea>
+
+        <button>Send Message</button>
+    </div>
+
+    <!-- SUPPORT SECTION -->
+    <div class="box">
+        <h2>Support</h2>
+        <p>support@playspot.iict<br>Phone: +92 300 0000000</p>
+
+        <h3>FAQ’s</h3>
+
+        <!-- FAQ 1 -->
+        <div class="faq-item">
+            <input type="checkbox" id="faq1">
+            <label for="faq1">How do I book?</label>
+            <div class="answer">
+                Select a court, choose your time slot, and confirm your booking with secure payment.
+            </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item">
+            <input type="checkbox" id="faq2">
+            <label for="faq2">How to organize a tournament?</label>
+            <div class="answer">
+                Use our event organizer tool to create brackets, manage teams, and schedule matches easily.
+            </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item">
+            <input type="checkbox" id="faq3">
+            <label for="faq3">What payment methods?</label>
+            <div class="answer">
+                We support credit/debit cards, bank transfers, and mobile wallet payments.
+            </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item">
+            <input type="checkbox" id="faq4">
+            <label for="faq4">Do you support refunds?</label>
+            <div class="answer">
+                Yes, refunds depend on the facility’s cancellation policy. Check details before booking.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <div>
+        <h3>PlaySpot</h3>
+        <p>Book courts, organize tournaments, buy equipment.</p>
+    </div>
+
+    <div>
+        <h3>Quick Links</h3>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Courts</a>
+        <a href="#">Store</a>
+    </div>
+
+    <div>
+        <h3>Contact</h3>
+        <p>Email: support@playspot.iict<br>Phone: +92 300 0000000</p>
+        <div class="social-icons">
+            <img src="IICT PROJECT IMAGES/facebook.png">
+            <img src="IICT PROJECT IMAGES/Instagram.png">
+            <img src="IICT PROJECT IMAGES/X.png">
+        </div>
+    </div>
+</footer>
+
+<div class="footer-bottom">© 2025 PlaySpot. All Rights Reserved.</div>
+
+</body>
+</html>
