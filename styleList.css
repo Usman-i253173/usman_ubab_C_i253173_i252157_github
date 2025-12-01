@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eee;
+}
+
+
+.container {
+  max-width: 420px;
+  margin: auto;
+  background: white;
+  padding-bottom: 20px;
+}
+
+
+.header {
+  background:greenyellow;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.back {
+  margin-left: auto;
+  font-size: 20px;
+}
+
+
+.card {
+  display: flex;
+  margin: 12px;
+  box-shadow: 0 0 5px #aaa;
+}
+
+.image {
+  width: 120px;
+  height: 100px;
+  background: #ccc;
+}
+
+
+.details {
+  padding: 8px;
+}
+
+.details h3 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.price {
+  color: green;
+  font-weight: bold;
+}
+
+
+button {
+  margin-top: 5px;
+  background: green;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+.details-btn {
+  background: #333;
+  margin-right: 5px;
+}
+
+.img-text {
+  font-size: 10px;
+  color: gray;
+  text-align: start;
+  width: 120px;
+}
+
