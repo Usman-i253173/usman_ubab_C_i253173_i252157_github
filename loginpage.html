@@ -7,35 +7,34 @@
 </head>
 <body>
 
-<div class="container">
+<header class="header">
+    <img src="playspot (2).png" class="logo-img" alt="Playspot Logo" title="logo made with generative AI">
+</header>
 
-    <div class="header">
-            <img src="playspot (2).png" class="logo-img" title="logo made with generative AI">
-    </div>
+<main class="container">
 
     <h2 class="title">Login</h2>
 
-    <div class="form-box">
-        <input type="text" placeholder="username/email">
-        <input type="password" placeholder="password">
-    </div>
+    <form class="form-box">
+        <input type="text" placeholder="Username/email" required>
+        <input type="password" placeholder="Password" required>
+    </form>
 
-    <button class="login-btn">login</button>
+    <button class="login-btn">Login</button>
 
-    <p class="forgot">i forgot my password. click here</p>
+    <p class="forgot">I forgot my password. <a href="#">Click here</a></p>
 
-    <div class="social-icons">
+    <section class="social-icons">
         <p>Login with</p>
-        <div class="social-logos">
-            <img src="facebookimage.webp" class="social-logos">
-            <img src="googleimage.webp" class="social-logos">
+        <div class="icons">
+            <img src="facebookimage.webp" class="social-logos" alt="Login with Facebook">
+            <img src="googleimage.webp" class="social-logos" alt="Login with Google">
         </div>
-    </div>
-    <br>
-    <button class="register-btn">register new account</button>
+    </section>
 
+    <button class="register-btn">Register new account</button>
 
-</div>
+</main>
 
 </body>
 </html>
